@@ -1,0 +1,26 @@
+﻿//Run on https://www.json-generator.com/
+[
+  "{{repeat(1000)}}",
+  {
+    "sourceId": "{{integer(1, 3)}}",
+    "customerId": "{{integer(1, 80000)}}",
+    "arrayData": {
+      "cuentas": [
+        "{{repeat(1,10)}}",
+        "{{integer(900000000, 999999999)}}"
+      ]
+    },
+    "data": {
+      "age": "{{integer(20, 40)}}",
+      "name": "{{firstName()}} {{surname()}}",
+      "gender": "{{gender()}}",
+      "company": "{{random(company().toUpperCase(), null)}}",
+      "email": "{{random(email(), null)}}",
+      "phone": "+1 {{random(phone(), null)}}",
+      "address": "{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}",
+      "isActive": "{{bool()}}",
+      "registered": "{{date(new Date(2014, 0, 1), new Date(), \"YYYY-MM-ddThh:mm:ss Z\")}}",
+      "balance": "{{floating(1000, 4000, 2)}}"
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CustomerConsumerForPostgreSql": {
+      "commandName": "Project",
+      "commandLineArgs": "customers"
+    }
+  }
+}

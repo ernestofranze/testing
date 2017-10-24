@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleAppProducer": {
+      "commandName": "Project",
+      "commandLineArgs": "source_1_data.json"
+    }
+  }
+}

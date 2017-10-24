@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elasticsearch.Net" Version="5.5.0" />
+    <PackageReference Include="NEST" Version="5.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\N5.Administration.Filters\N5.Administration.Filters.csproj" />
+    <ProjectReference Include="..\N5.Core\N5.Core.csproj" />
+  </ItemGroup>
+
+</Project>
